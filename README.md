@@ -1,5 +1,5 @@
 # Learning Portofolio
-###📊 **Another Step in My Excel & Data Analysis Learning Journey**
+###📊 **Day 1 in My Excel & Data Analysis Learning Journey**
 
 As I continue learning and improving my Excel skills, I recently put my knowledge of **Mathematical and Logical Functions** into practice using a sales performance dataset.
 
@@ -30,7 +30,8 @@ This practical exercise has helped me understand how Excel can be applied to are
 
 I’m still learning, practising, and making mistakes along the way, but every exercise is helping me become more confident with data.
 
-[alt:partical day 1 MBS](partical day 1 MBS.jpg)
+[alt:partical day 1 MBS](partical day 1 MBS.PNG)
+
 
 ###**Day 2 of My Excel Learning Journey 📊🚀**
 

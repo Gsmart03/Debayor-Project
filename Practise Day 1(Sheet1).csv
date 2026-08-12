@@ -1,0 +1,24 @@
+Employee,Department,Monthly Sales (?),Target (?),Customers,Attendance %,Customer Rating,Training Completed,Targeted status,Performance Level,Customer Eligibilty,REcommendation For training,Training not completed,recomended Status
+Aisha,Sales,"850,000","800,000",42,96%,4.6,Yes,Achieved,Good,Eligible,Trained,Trained,Not recommended
+David,Sales,"720,000","800,000",38,92%,4.2,Yes,Not Achieved,Not Bad,Not Eligible,Trained,Trained,Not recommended
+Chinedu,Sales,"1,150,000","1,000,000",55,98%,4.8,Yes,Achieved,Excellent,Eligible,Trained,Trained,Recommended
+Fatima,Sales,"640,000","700,000",31,88%,3.9,No,Not Achieved,Needs Improvement,Not Eligible,Needs Training,Not Trained,Not recommended
+Michael,Sales,"930,000","900,000",47,94%,4.5,Yes,Achieved,Good,Eligible,Trained,Trained,Not recommended
+Grace,Sales,"580,000","700,000",29,85%,3.7,No,Not Achieved,Needs Improvement,Not Eligible,Needs Training,Not Trained,Not recommended
+Ibrahim,Sales,"1,250,000","1,100,000",61,99%,4.9,Yes,Achieved,Excellent,Eligible,Trained,Trained,Recommended
+Blessing,Sales,"780,000","750,000",40,91%,4.3,Yes,Achieved,Not Bad,Not Eligible,Trained,Trained,Not recommended
+Samuel,Sales,"690,000","700,000",35,89%,4,No,Not Achieved,Needs Improvement,Not Eligible,Needs Training,Not Trained,Not recommended
+Esther,Sales,"1,020,000","950,000",52,97%,4.7,Yes,Achieved,Excellent,Eligible,Trained,Trained,Recommended
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,Total Monthly Sale,"8,610,000",,,,,,,,,,,
+,Total number of Consumer,430,,,,,,,,,,,
+,Average Monthly Sales,"861,000",,,,,,,,,,,
+,Average Consumer Rating,4.36,,,,,,,,,,,
+,Rounding  average Monthly sale to 2d.p,"861,000",,,,,,,,,,,
+,Rounding  average Consumer to 1d.p,4.4,,,,,,,,,,,
+,count employee that recored their monthly sales,10,,,,,,,,,,,
+,Count employee that recored consumer ID,10,,,,,,,,,,,
+,HIghest sale,"1,250,000",,,,,,,,,,,
+,HIghest target,"1,100,000",,,,,,,,,,,
+,highest customer rating,4.9,,,,,,,,,,,

@@ -1,4 +1,4 @@
-# Learning Portofolio
+# Learning Portfolio
 ###📊 **Day 1 in My Excel & Data Analysis Learning Journey**
 
 As I continue learning and improving my Excel skills, I recently put my knowledge of **Mathematical and Logical Functions** into practice using a sales performance dataset.

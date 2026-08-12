@@ -30,7 +30,7 @@ This practical exercise has helped me understand how Excel can be applied to are
 
 I’m still learning, practising, and making mistakes along the way, but every exercise is helping me become more confident with data.
 
-![alt:partical day 1 MBS](/asset/images/partical day 1 MBS.PNG)
+![alt:partical day 1 MBS](partical day 1 MBS.PNG)
 
 
 ###**Day 2 of My Excel Learning Journey 📊🚀**
@@ -53,5 +53,5 @@ Every practice session is helping me become more confident with data analysis, o
 
 **Day 2 completed. More learning ahead! 🚀**
 
-<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/b00cf1b9-5499-458b-b5ff-30139ef18465" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/b00cf1b9-5499-458b-b5ff-30139ef18465" />
 

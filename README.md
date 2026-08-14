@@ -55,3 +55,35 @@ Every practice session is helping me become more confident with data analysis, o
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/b00cf1b9-5499-458b-b5ff-30139ef18465" />
 
+### Challenged Myself with what I learnt in week one
+### Learning Excel Beyond the Basics 📊🔥
+
+This week, I challenged myself to take my Excel skills a step further by working on a practical **Data Analysis Challenge**.
+
+Instead of simply memorizing formulas, I focused on understanding how different Excel functions can work together to solve real-world data problems.
+
+During the challenge, I worked with functions such as:
+
+- 🔹 **SUM** – to calculate total sales and performance figures
+- 🔹 **AVERAGE** – to understand average performance
+- 🔹 **MAX & MIN** – to identify the highest and lowest values
+- 🔹 **COUNT** – to analyze numerical records
+- 🔹 **ROUND** – to present figures more clearly
+- 🔹 **IF & IFS** – to classify performance and support decision-making
+- 🔹 **LEFT, RIGHT & MID** – to extract useful information from employee codes
+- 🔹 **LEN & TRIM** – to identify and clean inconsistent data
+- 🔹 **TEXTSPLIT** – to separate combined information into usable fields
+- 🔹 **CONCATENATE** – to bring multiple pieces of information together
+
+What made this challenge interesting was discovering that **a formula can be correct but still produce an incorrect result when the underlying data is inconsistent.**
+
+For example, some employee codes had different branch-code lengths. That forced me to think beyond simply applying `LEFT()` and start considering how to build formulas that can handle variations in real-world data.
+
+I also learned that Excel is not just about calculations. It is about **cleaning data, identifying patterns, making decisions, and turning raw information into meaningful insights.**
+
+I'm still learning, still making mistakes, and still improving—but every challenge is helping me become more confident in my journey toward becoming a better **Data Analyst**.
+
+**One formula at a time. One challenge at a time. One skill at a time. 🚀**
+
+
+

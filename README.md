@@ -85,5 +85,58 @@ I'm still learning, still making mistakes, and still improving—but every chall
 
 **One formula at a time. One challenge at a time. One skill at a time. 🚀**
 
+Excel Challenge Screenshots
+
+Challenge 1 — Gross Sales
+
+<img src="excel_challenge_screenshots/01_Gross_Sales.png" alt="Challenge 1 — Gross Sales" width="650" height="260">
+
+Challenge 2 — Discount & Net Sales
+
+<img src="excel_challenge_screenshots/02_Discount_Net_Sales.png" alt="Challenge 2 — Discount & Net Sales" width="650" height="260">
+
+Challenge 3 — Target Status (IF)
+
+<img src="excel_challenge_screenshots/03_Target_Status.png" alt="Challenge 3 — Target Status (IF)" width="650" height="260">
+
+Challenge 4 — Performance Bonus
+
+<img src="excel_challenge_screenshots/04_Performance_Bonus.png" alt="Challenge 4 — Performance Bonus" width="650" height="260">
+
+Challenge 5 — Performance Level (IFS)
+
+<img src="excel_challenge_screenshots/05_Performance_Level.png" alt="Challenge 5 — Performance Level (IFS)" width="650" height="260">
+
+Challenge 6 — Branch Code (LEFT)
+
+<img src="excel_challenge_screenshots/06_Branch_Code.png" alt="Challenge 6 — Branch Code (LEFT)" width="650" height="260">
+
+Challenge 7 — Employee Number (RIGHT)
+
+<img src="excel_challenge_screenshots/07_Employee_Number.png" alt="Challenge 7 — Employee Number (RIGHT)" width="650" height="260">
+
+Challenge 8 — Employee Type (MID)
+
+<img src="excel_challenge_screenshots/08_Employee_Type.png" alt="Challenge 8 — Employee Type (MID)" width="650" height="260">
+
+Challenge 9 — Name Length (LEN)
+
+<img src="excel_challenge_screenshots/09_Name_Length.png" alt="Challenge 9 — Name Length (LEN)" width="650" height="260">
+
+Challenge 10 — Clean Name (TRIM)
+
+<img src="excel_challenge_screenshots/10_Clean_Name.png" alt="Challenge 10 — Clean Name (TRIM)" width="650" height="260">
+
+Challenge 11 — City & Country (TEXTSPLIT)
+
+<img src="excel_challenge_screenshots/11_City_Country.png" alt="Challenge 11 — City & Country (TEXTSPLIT)" width="650" height="260">
+
+Challenge 12 — Employee Identifier (CONCATENATE)
+
+<img src="excel_challenge_screenshots/12_Employee_Identifier.png" alt="Challenge 12 — Employee Identifier (CONCATENATE)" width="650" height="260">
+
+Challenge 13 — Employee Summary
+
+<img src="excel_challenge_screenshots/13_Employee_Summary.png" alt="Challenge 13 — Employee Summary" width="650" height="260">
 
 

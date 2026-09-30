@@ -3,54 +3,59 @@
 performed on the health_care dataset using SQL. The analysis covers basic data extraction, 
 logical filtering, sorting operations, aggregate metrics, and data grouping.**
 
- ## Key Highlights & Queries
-1️⃣ Demographic Filtering (SELECT, WHERE)Goal:
-Identify senior patients (Age > 60) needing specialized care.Result: 20,370 patients identified.
-
-'SELECT full_name, age, medical_condition 
+## Key Highlights & Queries
+1. 1️⃣ Demographic Filtering (SELECT, WHERE)
+   - Goal: Identify senior patients (Age > 60) needing specialized care.
+   - Result: 20,370 patients identified.
+     
+`SELECT full_name, age, medical_condition 
 FROM health_care
-WHERE age > 60;'
-2️⃣ Targeted Conditions (AND, OR Operators)Goal: 
-Filter female patients with specific blood types (O+ or A+).Result: 7,028 patients matched the criteria.
+WHERE age > 60;`
 
-'
-SELECT full_name, gender, blood_type, medical_condition 
+2. 2️⃣ Targeted Conditions (AND, OR Operators)
+   - Goal: Filter female patients with specific blood types (O+ or A+).
+   - Result: 7,028 patients matched the criteria.
+
+`SELECT full_name, gender, blood_type, medical_condition 
 FROM health_care
 WHERE Gender = 'female'
-  AND (blood_type = 'O+' OR blood_type = 'A+');
-'
-3️⃣ Financial Sorting (ORDER BY DESC)Goal: 
-Rank overall patient billing amounts from highest to lowest.Result: Top individual bill reached $52,764.28.
-'
-SELECT full_name, billing_amount, hospital 
+  AND (blood_type = 'O+' OR blood_type = 'A+');`
+
+3. 3️⃣ Financial Sorting (ORDER BY DESC)
+   - Goal: Rank overall patient billing amounts from highest to lowest.
+   - Result: Top individual bill reached $52,764.28.
+     
+`SELECT full_name, billing_amount, hospital 
 FROM health_care
-ORDER BY billing_amount DESC;
-'
-4️⃣ Hospital Admissions (GROUP BY, COUNT)Goal: 
-Calculate patient admission volume per facility.Result: Analyzed 39,876 unique hospital locations across the network.
-'
-SELECT hospital,
+ORDER BY billing_amount DESC;`
+
+4. 4️⃣ Hospital Admissions (GROUP BY, COUNT)
+   - Goal: Calculate patient admission volume per facility.
+   - Result: Analyzed 39,876 unique hospital locations across the network.
+
+`SELECT hospital,
        COUNT(hospital) AS total_admission
 FROM health_care
-GROUP BY hospital;
-'
-5️⃣ Emergency Cost Breakdown (AVG, GROUP BY)Goal:
-Compare average costs across admission types (Emergency vs. Urgent vs. Elective).Result: Average Emergency admission billed at $25,497.40.
-'
-SELECT admission_type, 
+GROUP BY hospital;`
+
+5. 5️⃣ Emergency Cost Breakdown (AVG, GROUP BY)
+   - Goal: Compare average costs across admission types (Emergency vs. Urgent vs. Elective).
+   - Result: Average Emergency admission billed at $25,497.40.
+
+`SELECT admission_type, 
        AVG(billing_amount) AS Average_Price_Emergency
 FROM health_care
-GROUP BY admission_type;
-'
-6️⃣ Physician Metrics (GROUP BY, SUM, COUNT)Goal: 
-Track total patient load and total billing generated per doctor.Result: Aggregated caseloads and revenue across 40,341 doctors.   
-'
-SELECT doctor, 
+GROUP BY admission_type;`
+
+6. 6️⃣ Physician Metrics (GROUP BY, SUM, COUNT)
+   - Goal: Track total patient load and total billing generated per doctor.
+   - Result: Aggregated caseloads and revenue across 40,341 doctors.   
+
+`SELECT doctor, 
        COUNT(full_name) AS Total_patient, 
        SUM(billing_amount) AS Total_bills
 FROM health_care
-GROUP BY doctor;
-'
-💡 Key Takeaway:
-Using structured SQL queries allows healthcare organizations to quickly query patient demographics, 
-optimize resource allocation, and maintain financial visibility across vast databases.
+GROUP BY doctor;`
+
+#💡 Key Takeaway:
+**Using structured SQL queries allows healthcare organizations to quickly query patient demographics, optimize resource allocation, and maintain financial visibility across vast databases.**

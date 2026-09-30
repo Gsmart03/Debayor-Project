@@ -19,16 +19,38 @@ FROM health_care
 WHERE Gender = 'female'
   AND (blood_type = 'O+' OR blood_type = 'A+');
 '
-
 3️⃣ Financial Sorting (ORDER BY DESC)Goal: 
 Rank overall patient billing amounts from highest to lowest.Result: Top individual bill reached $52,764.28.
+'
+SELECT full_name, billing_amount, hospital 
+FROM health_care
+ORDER BY billing_amount DESC;
+'
 4️⃣ Hospital Admissions (GROUP BY, COUNT)Goal: 
 Calculate patient admission volume per facility.Result: Analyzed 39,876 unique hospital locations across the network.
+'
+SELECT hospital,
+       COUNT(hospital) AS total_admission
+FROM health_care
+GROUP BY hospital;
+'
 5️⃣ Emergency Cost Breakdown (AVG, GROUP BY)Goal:
 Compare average costs across admission types (Emergency vs. Urgent vs. Elective).Result: Average Emergency admission billed at $25,497.40.
+'
+SELECT admission_type, 
+       AVG(billing_amount) AS Average_Price_Emergency
+FROM health_care
+GROUP BY admission_type;
+'
 6️⃣ Physician Metrics (GROUP BY, SUM, COUNT)Goal: 
 Track total patient load and total billing generated per doctor.Result: Aggregated caseloads and revenue across 40,341 doctors.   
-
+'
+SELECT doctor, 
+       COUNT(full_name) AS Total_patient, 
+       SUM(billing_amount) AS Total_bills
+FROM health_care
+GROUP BY doctor;
+'
 💡 Key Takeaway:
 Using structured SQL queries allows healthcare organizations to quickly query patient demographics, 
 optimize resource allocation, and maintain financial visibility across vast databases.

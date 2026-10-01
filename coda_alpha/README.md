@@ -2,7 +2,8 @@ Step 2 — Understand the dataset
 
 Your table has these important columns:
 
-Column	Meaning
+Column |	Meaning
+-------|---------
 order_id	Unique order
 order_date	Date of order
 customer_id	Customer identifier

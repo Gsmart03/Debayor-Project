@@ -173,4 +173,4 @@ The transactional database includes 2,121 historical records encompassing 1,764 
 
 ---
 
-Overall, the data suggests that the next stage of growth should focus on **quality of revenue rather than revenue volume alone**.
+![Furniture Sales Dashboard](save.png)

@@ -173,4 +173,4 @@ The transactional database includes 2,121 historical records encompassing 1,764 
 
 ---
 
-![Furniture Sales Dashboard](save.png)
+![Furniture Sales Dashboard](save.PNG)

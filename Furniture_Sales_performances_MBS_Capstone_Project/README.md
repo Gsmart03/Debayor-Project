@@ -19,7 +19,7 @@ Discounting appears to be one of the most important factors affecting profitabil
 The West region produced the highest sales and profit, while the Central region recorded a loss despite generating substantial sales. This indicates that increasing sales alone is not sufficient; the business needs stronger control over pricing, discounts, and product profitability.
 
 ---
-## 4. Introduction
+##  Introduction
 
 The objective of this report is to evaluate the company's furniture sales performance by analyzing revenue, profitability, products, regions, customer segments, discounts, and sales trends. The analysis is designed to identify major business strengths, profitability challenges, potential risks, and opportunities for improving overall financial performance.
 
